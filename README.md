@@ -1,4 +1,4 @@
-# mac_sec_check
+# macos_auditor
 macOS Security Auditor
 
 # Descripción
@@ -10,38 +10,32 @@ El objetivo es proporcionar una herramienta simple para que los administradores 
 # Requisitos
 
  * Sistema Operativo: macOS (compatible con versiones de macOS Capitan 10.11 y posteriores).
+   
+ * Verificar que tiene instalado Git:
+   git --version Sino tiene instalada el aplicativo, la forma más sencilla de instalar Git en macOS es a través de las Herramientas de Línea de Comandos de Xcode. En la Terminal, ejecute:
+   xcode-select --install
+
+Esto abrirá una ventana que le pedirá que instale las herramientas. Una vez que la instalación se complete, tendrá Git disponible.
 
  * Acceso: Se necesita acceso a la línea de comandos (Terminal).
 
  * Permisos: El script necesita permisos de ejecución.
 
-# Instalación y Uso
+# Descarga, Instalación y Uso
+ * Primero, descargar el script del repositorio, usando la terminal macOS, desde el directorio o PATH /usr/local/bin, a través del comando:
+sudo  git clone https://github.com/matarturo/mac_sec_check.git.  
 
- * Guarde el archivo: Copie el código del script y guárdelo como un archivo de texto plano llamado macos_sec_check.sh.
-
- * Abra la Terminal: Navegue hasta la ubicación donde guardó el archivo.
+(recomendado) Asi, usted podrá ejecutarlo desde cualquier lugar.
 
  * Otorgue permisos de ejecución: Ejecute el siguiente comando para que el script pueda ser ejecutado como un programa.
 
-   chmod +x macos_sec_check.sh
-
+   sudo chmod +x macos_sec_check.sh
 
  * Ejecute el script:
 
    * Para ejecutar el script desde el directorio actual:
 
-     ./macos_sec_check.sh
-
-
-   * (Recomendado) Para una mejor práctica y accesibilidad, mueva el script a un directorio en su PATH, como /usr/local/bin/. Luego podrá ejecutarlo desde cualquier lugar.
-
-     sudo mv macos_sec_check.sh /usr/local/bin/
-
-
-     Una vez movido, puede ejecutarlo simplemente escribiendo el nombre del script:
-
-     macos_sec_check.sh
-
+   sudo ./macos_sec_check.sh
 
 # Compatibilidad
 
