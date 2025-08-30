@@ -9,7 +9,7 @@ El objetivo es proporcionar una herramienta simple para que los administradores 
 
 # Requisitos
 
- * Sistema Operativo: macOS (compatible con versiones de macOS Yosemite y posteriores).
+ * Sistema Operativo: macOS (compatible con versiones de macOS Capitan 10.11 y posteriores).
 
  * Acceso: Se necesita acceso a la línea de comandos (Terminal).
 
